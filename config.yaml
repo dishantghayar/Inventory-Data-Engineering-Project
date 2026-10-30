@@ -1,0 +1,17 @@
+project:
+  name: inventory_data_pipeline
+
+paths:
+  input: data/input
+  sample: data/sample
+  output: data/output
+  rejected: data/rejected
+  logs: logs
+
+processing:
+  allow_negative_stock: false
+  decimal_precision: 3
+  batch_size: 10000
+
+database:
+  path: data/inventory.duckdb
