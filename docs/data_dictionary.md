@@ -1,0 +1,9 @@
+Every table.
+Every column.
+Data types.
+Primary keys.
+Foreign keys.
+Nullable columns.
+Unique constraints.
+Derived fields.
+Business rules.
